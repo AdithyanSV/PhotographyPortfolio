@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+body{
+    background-color: black;
+    color: #ffffee;
+}
+.land{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(sources/background.jpg);
+    background-position: center;
+	background-size: cover;
+    overflow-x: hidden;
+	position: relative;
+}
+.navbar{
+    display: flex;
+    padding: 40px 50px;
+}
+.navlogo img{
+    width: 105px;
+}
+.navlinks{
+    flex: 1;
+}
+.navlinks ul{
+    margin-left: 25;
+    display: inline;
+}
+.navlinks ul li{
+    list-style: none;
+	display: inline-block;
+	padding: 8px 25px;
+}
+.btn{
+    padding: 10px 25px;
+    background-color: #ffffff;
+    color:black
+}
