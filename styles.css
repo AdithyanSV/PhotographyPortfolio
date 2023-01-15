@@ -9,25 +9,37 @@ body{
 }
 .land{
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(sources/background.jpg);
+    background-image:url(sources/background.jpg);
     background-position: center;
 	background-size: cover;
-    overflow-x: hidden;
+    background-attachment: fixed;
+    overflow: hidden;
 	position: relative;
 }
 .navbar{
     display: flex;
-    padding: 40px 50px;
+    padding: 5vh 5vw;
+    justify-content: space-around;
+    align-items: center;
 }
 .navlogo img{
-    width: 105px;
+    width: 9vw;
 }
 .navlinks{
     flex: 1;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .navlinks ul{
     margin-left: 25;
     display: inline;
+
+}
+.navlinks ul a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
 }
 .navlinks ul li{
     list-style: none;
@@ -37,5 +49,26 @@ body{
 .btn{
     padding: 10px 25px;
     background-color: #ffffff;
-    color:black
+    color:black;
+    cursor: pointer;
+}
+.banner{
+	margin: 25vh 10vw;
+	color: #ffffff;
+}
+.banner h1{
+	font-size: 6ch;
+	margin-bottom: 2vh; 
+}
+.banner h4{
+    margin-bottom: 3vh;
+    font-family: Arial;
+    font-weight: lighter;
+}
+.banner h1 span{
+	color: red;
+}
+
+.content{
+    background:rgba(0, 0, 0, 1) ;
 }
