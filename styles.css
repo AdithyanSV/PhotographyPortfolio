@@ -73,3 +73,73 @@ body{
     background:rgba(0, 0, 0, 1) ;
     padding: 2vh 4vw;
 }
+.me{
+    flex: 1;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25vh;
+}
+.me img{
+    width: 60vw;
+    height: 40vh;
+    padding: 0px 10px;
+}
+.h{
+    padding-bottom: 5vh;
+    font-size: 4ch;
+}
+.set{
+    border: #888888 solid 0.5px;
+    border-radius: 10px;
+    padding: 5vw;
+}
+.ith{
+    font-size: 4ch;
+    padding-bottom: 0px;
+}
+.p{
+    padding-bottom: 5vh;
+    font-size: 3ch;
+}
+.border{
+    padding: 20vh 2vw;
+}
+.item{
+    flex: 1;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item img{
+    padding-left: 5vh;
+    height: 55vh;
+}
+.end{
+    background-color: #111;
+    height: 50vh;
+    display: flex;
+    padding: 5vh 5vw;
+    padding-top: 10vh;
+    margin-top: 20vh;
+}
+.end ul a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+}
+.end ul li{
+    list-style: none;
+	padding: 8px 25px;
+}
+.links{
+    padding-left: 5vw;
+    border-left: #888888 solid 2px;
+}
+.outro{
+    padding-right: 5vw;
+}
+.outro img{
+    padding-top: 5vh;
+    width: 15vw;
+}
