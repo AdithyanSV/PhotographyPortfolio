@@ -46,6 +46,18 @@ body{
 	display: inline-block;
 	padding: 8px 25px;
 }
+.navlinks ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: white;
+
+	margin: auto;
+	transition: .5s;
+}
+.navlinks ul li:hover::after{
+	width: 100%;
+}
 .btn{
     padding: 10px 25px;
     background-color: #ffffff;
@@ -135,6 +147,20 @@ body{
 .links{
     padding-left: 5vw;
     border-left: #888888 solid 2px;
+    text-align: center;
+}
+.links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: white;
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+.links ul li:hover::after{
+	width: 100%;
+    margin: auto;
 }
 .outro{
     padding-right: 5vw;
