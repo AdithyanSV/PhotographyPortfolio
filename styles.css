@@ -16,6 +16,13 @@ body{
     overflow: hidden;
 	position: relative;
 }
+.construction{
+    background-image:url(sources/background3.jpg);
+
+}
+.about{
+    background-image:url(sources/error1.jpg);
+}
 .navbar{
     display: flex;
     padding: 5vh 5vw;
@@ -79,6 +86,12 @@ body{
 }
 .banner h1 span{
 	color: red;
+}
+.cbanner h1 span{
+    color: #919191;
+}
+.abanner h1 span{
+	color: #4e9fe0;
 }
 
 .content{
@@ -173,6 +186,11 @@ body{
     padding-top: 5vh;
     height: 6vh;
 }
+.out{
+    margin-top: 3vh;
+    display: none;
+}
+
 
 
 @media screen and (max-width: 1100px) {
@@ -215,6 +233,15 @@ body{
     }
 }
 @media screen and (max-width: 750px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .navlogo img{
+        width: 125px;
+    }
+    .int{
+        display: none;
+    }
     .item img{
         height: auto;
         width: 70vw;
@@ -222,6 +249,10 @@ body{
     }
     .outro img{
         height: 4vh;
+    }
+    .out{
+        margin-top: 3vh;
+        display: inline;
     }
 }
 @media screen and (max-width: 500px) {
